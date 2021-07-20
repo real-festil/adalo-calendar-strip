@@ -1,0 +1,64 @@
+{
+  "displayName": "calendar strip",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "calendarColor",
+      "displayName": "Цвет календаря",
+      "type": "color"
+    },
+    {
+      "name": "textColor",
+      "displayName": "Цвет текста",
+      "type": "color"
+    },
+    {
+      "name": "highlightContainerColor",
+      "displayName": "Фон выбранной даты",
+      "type": "color"
+    },
+    {
+      "name": "highlightTextColor",
+      "displayName": "Цвет текста выбранной даты",
+      "type": "color"
+    },
+    {
+      "name": "onSelect",
+      "displayName": "На выбор даты",
+      "type": "action",
+      "arguments": [
+        {
+          "type": "date",
+          "displayName": "Выбранная дата"
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "displayName": "Услуги",
+      "type": "list"
+    },
+    {
+      "name": "masterEmail",
+      "displayName": "Email мастера",
+      "type": "text",
+      "role": "listItem",
+      "reference": "services"
+    },
+    {
+      "name": "workDays",
+      "displayName": "Рабочие дни мастера",
+      "type": "list"
+    },
+    {
+      "name": "workDay",
+      "displayName": "День",
+      "type": "text",
+      "role": "listItem",
+      "reference": "workDays"
+    }
+  ]
+}
