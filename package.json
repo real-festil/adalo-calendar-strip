@@ -1,7 +1,7 @@
 {
   "name": "calendar-strip-nails",
   "description": "calendar-strip",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "main": "index.js",
   "license": "ISC",
   "author": "Roman Gladyshev",
@@ -36,6 +36,6 @@
     "react-native-scrollable-calendar-strip": "^2.0.14",
     "react-native-vector-icons": "^8.1.0",
     "react-native-web": "^0.17.1",
-    "style-loader": "^3.0.0"
+    "style-loader": "2.0.0"
   }
 }

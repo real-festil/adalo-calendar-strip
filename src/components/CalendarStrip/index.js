@@ -5,6 +5,7 @@ import moment from 'moment';
 
 
 const CalendarStripComponent = (props) => {
+    console.log('Package version is 1.0.6')
     const [selectedDate, setSelectedDate] = useState();
     moment.locale('ru')
     console.log(`props`, props)
